@@ -27,13 +27,13 @@ header::after {
 }
 
 .logo {
-  float: left;
-  padding: 10px 0;
-  padding-left: 10px;
-}
+	display: inline-block;  
+	padding: 10px 0;
+  	padding-left: 10px;
+  }
 
 nav {
-  float: right;
+	margin: 0 auto;
 }
 
 nav ul {
@@ -41,6 +41,7 @@ nav ul {
   padding: 0 15px;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
 }
 
 nav li {
@@ -49,7 +50,6 @@ nav li {
   padding-right: 10px;
   padding-top: 23px;
   position: relative;
-  display: flex;
 }
 
 nav a {
